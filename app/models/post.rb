@@ -7,4 +7,6 @@ class Post < ApplicationRecord
   belongs_to :user
 
   alias_method :author, :user
+
+  has_one_attached :image
 end
