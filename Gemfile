@@ -52,6 +52,7 @@ gem 'nokogiri'
 gem 'store_model'
 gem 'byebug'
 gem 'omniauth-ruesia', path: 'omniauth-ruesia'
+gem "omniauth-rails_csrf_protection"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

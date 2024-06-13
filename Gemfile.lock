@@ -296,6 +296,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   nokogiri
+  omniauth-rails_csrf_protection
   omniauth-ruesia!
   pg (~> 1.1)
   puma (~> 5.0)
